@@ -1,0 +1,128 @@
+*{
+
+    margin: 0; 
+    }
+    body {
+        background-color: #f2f2f2;
+    }
+    
+    .logoimg{ 
+        max-width: 70%;
+    
+    }
+    .logoimg{
+    width: 25%;
+    margin-left: 7%;
+    margin-top: 175px;
+    
+    }
+    .logotext{
+        font-size: 165%;
+        margin-left: 10%;
+        padding-top: -100px;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 550px;
+        
+    }
+    .form1
+    {
+        margin-top: -17%;
+        margin-left: 740px;
+        width: 396px;
+        height: 360px;
+        border-radius: 12px;
+        background-color: #ffffff;
+        box-shadow: 0 0 18px 0 rgba(28, 27, 27, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24) ;
+    }
+    .cpage{
+        font-size: 14px;
+        margin-left: 800px;
+        margin-top: 23px;
+    }
+    
+    .cpage a:hover {
+        text-decoration: underline;
+    }
+    .cpage a{
+        font-weight: bold;
+        color: #000;
+        text-decoration: none;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        margin-left: 3.6%;
+        margin-top: 3.3%;
+        width: 85%;
+        height: 3.8vh;
+        padding: 3.1%;
+        border-radius: 7px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ccc;
+        outline: 0;
+    }
+    input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #1a75ff;
+    box-shadow: 0 0 2px 0.8px rgba(26, 117, 255, 0.2), 0 0 2px 0.8px rgba(26,117, 255, 0.2);
+}
+
+.loginbtn {
+    width: 94%;
+    padding: 12px 12px;
+    margin: 15px 10px 5px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: large;
+    outline: 0;
+    background-color: #1a75ff;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.forgor {
+    color: #1a75ff;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-top: 190px;
+    font-size: 14px;
+    margin-bottom: 240px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgor:hover {
+    text-decoration: underline;
+    color: #1a75ff;
+    text-decoration-thickness: 1.5px;
+}
+
+.btnaan {
+    margin-left: 97px;
+    width: 200px;
+    height: 7.8vh;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #42b722	;
+    border-color: #42b722	;
+    margin-top: 80px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.crtacc {
+    background-color: #42b722;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.crtacc:hover
+{
+    background-color:  #0d9934;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8px;
+}
